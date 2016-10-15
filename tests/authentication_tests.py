@@ -16,7 +16,7 @@ class StandAloneTests(TestCase):
     """
     mock_open.return_value.read.return_value = "ncsu|cs"
     self.assertTrue(auth.login('ncsu', 'cs'))
-  #
+
   # @patch('__builtin__.open')
   # def test_login_failed(self, mock_open):
   #   mock_open.return_value.read.return_value = "ncsu|cs"
